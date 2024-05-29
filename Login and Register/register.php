@@ -111,7 +111,7 @@
                     ?>
 
                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="submit" value="Register" name="register" class="btn btn-warning btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600; background-color: #86469C;" />
+                      <input type="submit" value="Register" name="register" class="btn btn-warning btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600; background-color: #86469C; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#522a60'" onmouseout="this.style.backgroundColor='#86469C'" />
                     </div>
 
                   </form>
